@@ -1,4 +1,4 @@
-﻿namespace BarSpace.CspBuilder.Constants
+﻿namespace CspBuilder.Constants
 {
     public static class CspHashAlgorithms
     {

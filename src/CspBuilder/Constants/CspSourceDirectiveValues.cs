@@ -1,4 +1,4 @@
-﻿namespace BarSpace.CspBuilder.Constants
+﻿namespace CspBuilder.Constants
 {
     /// <summary>
     /// Special values of content security police source directives.

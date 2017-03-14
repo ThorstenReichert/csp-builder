@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Razor.TagHelpers;
 
-namespace BarSpace.CspBuilder
+namespace CspBuilder
 {
     [HtmlTargetElement("*", Attributes = CspNonceAttributeName)]
     public class CspNonceTagHelper: TagHelper

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using BarSpace.CspBuilder.DirectiveBuilder;
+using CspBuilder.DirectiveBuilder;
 
-namespace BarSpace.CspBuilder
+namespace CspBuilder
 {
     /// <summary>
     /// Register of all used policy builders.

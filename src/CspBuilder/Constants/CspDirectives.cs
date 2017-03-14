@@ -1,9 +1,7 @@
-﻿namespace BarSpace.CspBuilder.Constants
+﻿namespace CspBuilder.Constants
 {
     public static class CspDirectives
     {
-        // missing: sandbox, plugin-types
-
         /// <summary>
         /// The default-src is the default policy for loading content such as JavaScript, Images, CSS, Font's, AJAX requests, Frames, HTML5 Media. See the Source List Reference for possible values.
         /// </summary>

@@ -1,4 +1,4 @@
-﻿namespace BarSpace.CspBuilder.DirectiveBuilder
+﻿namespace CspBuilder.DirectiveBuilder
 {
     public abstract class Directive: CspBuilder
     {

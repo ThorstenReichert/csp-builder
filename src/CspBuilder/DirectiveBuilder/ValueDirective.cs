@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace BarSpace.CspBuilder.DirectiveBuilder
+namespace CspBuilder.DirectiveBuilder
 {
     /// <summary>
     /// Base-type for directive-specific content security policy builder.

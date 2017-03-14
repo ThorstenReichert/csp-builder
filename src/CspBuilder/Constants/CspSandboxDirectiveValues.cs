@@ -1,4 +1,4 @@
-﻿namespace BarSpace.CspBuilder.Constants
+﻿namespace CspBuilder.Constants
 {
     /// <summary>
     /// Valid values for content security policy sandbox directive.

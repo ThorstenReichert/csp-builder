@@ -1,7 +1,7 @@
 using System;
-using BarSpace.CspBuilder.Constants;
+using CspBuilder.Constants;
 
-namespace BarSpace.CspBuilder.DirectiveBuilder
+namespace CspBuilder.DirectiveBuilder
 {
     /// <summary>
     /// Content security policy builder for source-type directives

@@ -1,7 +1,7 @@
-﻿using BarSpace.CspBuilder.Constants;
-using BarSpace.CspBuilder.DirectiveBuilder;
+﻿using CspBuilder.Constants;
+using CspBuilder.DirectiveBuilder;
 
-namespace BarSpace.CspBuilder
+namespace CspBuilder
 {
     public class CspBuilder
     {

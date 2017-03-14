@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BarSpace.CspBuilder.DirectiveBuilder
+namespace CspBuilder.DirectiveBuilder
 {
     /// <summary>
     /// Content security policy builder for report-uri directive.
