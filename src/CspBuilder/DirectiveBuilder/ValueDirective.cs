@@ -16,14 +16,13 @@ namespace CspBuilder.DirectiveBuilder
 
         public override string BuildFromName(string name)
         {
-            var directive = name;
             if (Content.Any())
             {
-                directive += " " + string.Join(" ", Content);
+                var policy = string.Join(" ", Content);
+                return $"{name} {policy};";
             }
-            directive += ";";
 
-            return directive;
+            return null;
         }
     }
 }

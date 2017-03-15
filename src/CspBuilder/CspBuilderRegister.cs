@@ -46,7 +46,11 @@ namespace CspBuilder
             foreach (var keyValuePair in _builderRegister)
             {
                 var content = keyValuePair.Value.BuildFromName(keyValuePair.Key);
-                directives.Add(content);
+
+                if (content != null)
+                {
+                    directives.Add(content);
+                }
             }
 
             return string.Join(" ", directives);
