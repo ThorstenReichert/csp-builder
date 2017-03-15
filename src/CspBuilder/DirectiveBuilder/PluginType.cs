@@ -25,13 +25,14 @@ namespace CspBuilder.DirectiveBuilder
                 throw new ArgumentException("MIME type must not be null of whitespace");
             }
 
-            var content = type;
             if (string.IsNullOrWhiteSpace(subtype))
             {
-                content += "/" + subtype;
+                Content.Add(type);
             }
-
-            Content.Add(content);
+            else
+            {
+                Content.Add($"{type}/{subtype}");
+            }
 
             return this;
         }
